@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio - Shankaran S</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a06dd3d44f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo.png" class="logo">
+                <ul>
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-text">
+                <p>
+                    Front End Developer.
+                </p>
+                <h1>Hi, I'm <span>Shankaran</span>.</h1>
+            </div>
+        </div>
+    </div>
+    <!-- ---------about---------- -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="Images/user.jpg">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>As a passionate and highly motivated Front-End Developer, I bring creativity, precision, and a
+                        strong technical skillset to every project I undertake. With one year of experience in web
+                        development, I have honed my abilities to craft visually stunning and user-friendly websites
+                        that seamlessly blend design and functionality.</p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-links" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Frontend Dev</span><br>HTML, CSS, Javascript, React</li>
+                            <li><span>Backend Dev</span><br> Basics of Node.js, MongoDB</li>
+                            <li><span>QA-Testing</span><br>Manual Testing, Agile, JIRA</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>Feb/2023 - Aug/2023</span><br>Web Developer</li>
+                            <li><span>Jan/2022 - Dec/2022</span><br>Associate Software Engineer</li>
+                            <li><span>Oct/2020 - Dec/2021</span><br> Procurement Engineer</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>Web Development</span><br>NamasteDev.com Bangalore</li>
+                            <li><span>MBA</span><br> M.A.M B-School, Trichy</li>
+                            <li><span>BE-ECE</span><br>NIET, Coimbatore</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------services-------------- -->
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Development</h2>
+                    <p>Developed grid-based UI to track the financial aspects of loans
+                        and payments. <br><br> Collaborated with different payment partners like (Razorpay, Gpay) for payment reconciliation flow through payment
+                        partner API. 1000 of payments are reconciled on daily basis
+                        that reduced the manual work and increased the efficiency of
+                        the team by a lot</p>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Software Testing</h2>
+                    <p>Performed unit tesitng for Gpay payment integration and took
+                        responsibility for adding new features. <br><br> Worked on sprint planning to allocate story points to the assigned tasks and adding it into their Jira.</p>
+                </div>
+                <div>
+                    <i class="fa-regular fa-building"></i>
+                    <h2>Procurement Engineer</h2>
+                    <p>Implemented the new design and innovative things under the
+                        direction of senior managers. <br><br>
+                        Worked closely with project managers and engineers to
+                        ensure project needs were fulfilled and budget were
+                        honoured</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ------------- portfolio ------------------ -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="Images/work-1.jpg">
+                    <div class="layer">
+                        <h3>Finance Mgt System</h3>
+                        <p>Worked closly with finance team (Accounts Receivable) to provide financial analysis on monthly basis. </p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-2.jpg">
+                    <div class="layer">
+                        <h3>Finance Mgt System</h3>
+                        <p>Verifying the payment partner integration by adding duplicate payment details in dev platform.</p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="Images/work-3.jpg">
+                    <div class="layer">
+                        <h3>Inventory Handling</h3>
+                        <p>Worked under technical project manager to purchase requied materials form the best supplier in the market.</p>
+                        <a href="#">Link</a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+    <!-- --------------- Contact ----------------- -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Details</h1>
+                    <p><i class="fa-solid fa-envelope"></i> shankarsundher21@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 7373952302</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                        <a href=""><i class="fa-brands fa-github"></i></a>
+                        <a href=""><i class="fa-brands fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands fa-facebook"></i></a>
+                    </div>
+                    <!-- Add updated CV here -->
+                    <a href="/Images/Shankaran.pdf" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Enter Your Name" required>
+                        <input type="email" name="Email" placeholder="Enter Your Email" required>
+                        <input type="number" name="Number" placeholder="Enter Your Mobile Number">
+                        <textarea name="Message" rows="10" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright @ Shankar 2023</p>
+        </div>
+    </div>
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-links");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-links");
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+    </script>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbxjOaS5c7AwdPbcrO5XwZIrbE_Ko_6BNR-hMIc8rnZAQAHIUk7CFCmYJ0kxWTdqvCgQ-g/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully."
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
